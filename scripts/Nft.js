@@ -14,7 +14,7 @@ const NftPrimeContract = new ethers.Contract(NFT_CONTRACT_ADDRESS, contract.abi,
 
 async function main() {
     
-    const balanceOf = await NftPrimeContract.balanceOf("0xc483157d284C0df5AaDc38801a15aC535A18fc29");
+    const balanceOf = await NftPrimeContract.balanceOf("Your Metamask Account Address");
     console.log("The balance is: " + balanceOf);
 
     // console.log("Updating the message...");
