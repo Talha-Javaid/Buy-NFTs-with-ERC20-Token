@@ -184,25 +184,30 @@ main();
 ...
 
 npx hardhat run scripts/Tokwn.js --network goerli
+
 npx hardhat run scripts/Nft.js --network goerli
 ...
 
 ### Verify on EtherScan
 
-```
 Install:
 
+```
 npm install --save-dev @nomiclabs/hardhat-etherscan
 
+```
 Run:
 
+```
 npx hardhat verify --network goerli <Your Deployed Contract Address>
 
+```
 
 ### My Verified Contract addresses
 
 ```
 OptimusPrime Token is deployed to: 0x09a6510E848Bb7519B847d76d0C6eB61C7071397
+
 MyOptimusPrime Nft Token is deployed to: 0x990C650cB4d5b82E6Dc9dca4674E3605d419ED78
 
 ```
