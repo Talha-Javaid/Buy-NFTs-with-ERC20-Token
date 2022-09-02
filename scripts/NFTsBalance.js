@@ -3,7 +3,7 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const NFT_CONTRACT_ADDRESS = process.env.NFT_CONTRACT_ADDRESS;
 const contract = require("../artifacts/contracts/NFTs Token.sol/MyOptimusPrime.json");
 
-// provider - Alchemy
+// provider - Infura
 const InfuraProvider = new ethers.providers.InfuraProvider(network="goerli", INFURA_PROJECT_ID);
 
 // signer - you
