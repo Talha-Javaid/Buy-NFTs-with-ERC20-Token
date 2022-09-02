@@ -14,11 +14,11 @@ const PrimeContract = new ethers.Contract(ERC_CONTRACT_ADDRESS, contract.abi, si
 
 async function main() {
     
-    const balanceOf = await PrimeContract.balanceOf("0x990C650cB4d5b82E6Dc9dca4674E3605d419ED78");
+    const balanceOf = await PrimeContract.balanceOf("Your NFTs Contract Address");
     console.log("The balance is: " + balanceOf); 
 
     // console.log("Updating the message...");
-    const approve = await PrimeContract.approve("0x990C650cB4d5b82E6Dc9dca4674E3605d419ED78", 
+    const approve = await PrimeContract.approve("Your NFTs Contract Address", 
     ethers.utils.parseUnits('0.5', 18));
     
     console.log(approve); 
