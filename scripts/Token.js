@@ -17,7 +17,7 @@ async function main() {
     const balanceOf = await PrimeContract.balanceOf("Your NFTs Contract Address");
     console.log("The balance is: " + balanceOf); 
 
-    // console.log("Updating the message...");
+    
     const approve = await PrimeContract.approve("Your NFTs Contract Address", 
     ethers.utils.parseUnits('0.5', 18));
     
