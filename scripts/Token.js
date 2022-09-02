@@ -3,7 +3,7 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const ERC_CONTRACT_ADDRESS = process.env.ERC_CONTRACT_ADDRESS;
 const contract = require("../artifacts/contracts/ERC20 Token.sol/OptimusPrime.json");
 
-// provider - Alchemy
+// provider - Infura
 const InfuraProvider = new ethers.providers.InfuraProvider(network="goerli", INFURA_PROJECT_ID);
 
 // signer - you
